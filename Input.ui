@@ -1,0 +1,1534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InputUi</class>
+ <widget class="QDialog" name="InputUi">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>594</width>
+    <height>435</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QHBoxLayout" name="v_Layout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-675</y>
+        <width>575</width>
+        <height>1108</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="m_Layout">
+       <property name="leftMargin">
+        <number>3</number>
+       </property>
+       <property name="topMargin">
+        <number>3</number>
+       </property>
+       <property name="rightMargin">
+        <number>3</number>
+       </property>
+       <property name="bottomMargin">
+        <number>3</number>
+       </property>
+       <property name="spacing">
+        <number>3</number>
+       </property>
+       <item row="34" column="1">
+        <widget class="LineEdit" name="lineEdit_331"/>
+       </item>
+       <item row="49" column="2">
+        <widget class="QLabel" name="label_12">
+         <property name="text">
+          <string>最终伤害%</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="25" column="2">
+        <widget class="LineEdit" name="lineEdit_252"/>
+       </item>
+       <item row="24" column="3">
+        <widget class="LineEdit" name="lineEdit_243"/>
+       </item>
+       <item row="22" column="4">
+        <widget class="LineEdit" name="lineEdit_224"/>
+       </item>
+       <item row="8" column="0">
+        <widget class="QLabel" name="gloveLabel">
+         <property name="text">
+          <string>手套</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="49" column="3">
+        <widget class="QLabel" name="label_11">
+         <property name="text">
+          <string>暴击率%</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="31" column="6">
+        <widget class="LineEdit" name="lineEdit_316"/>
+       </item>
+       <item row="9" column="2">
+        <widget class="LineEdit" name="lineEdit_92"/>
+       </item>
+       <item row="50" column="2">
+        <widget class="LineEdit" name="finalDamageEdit">
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>最终伤害%</string>
+         </property>
+        </widget>
+       </item>
+       <item row="21" column="3">
+        <widget class="LineEdit" name="lineEdit_213"/>
+       </item>
+       <item row="40" column="5">
+        <widget class="LineEdit" name="lineEdit_395"/>
+       </item>
+       <item row="29" column="0">
+        <widget class="QLabel" name="petSkillLabel">
+         <property name="text">
+          <string>宠物技能</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="6">
+        <widget class="LineEdit" name="lineEdit_96"/>
+       </item>
+       <item row="24" column="5">
+        <widget class="LineEdit" name="lineEdit_245"/>
+       </item>
+       <item row="24" column="6">
+        <widget class="LineEdit" name="lineEdit_246"/>
+       </item>
+       <item row="21" column="6">
+        <widget class="LineEdit" name="lineEdit_216"/>
+       </item>
+       <item row="7" column="5">
+        <widget class="LineEdit" name="lineEdit_75"/>
+       </item>
+       <item row="28" column="6">
+        <widget class="LineEdit" name="lineEdit_286"/>
+       </item>
+       <item row="51" column="6">
+        <widget class="QPushButton" name="cancelBtn">
+         <property name="text">
+          <string>取消</string>
+         </property>
+        </widget>
+       </item>
+       <item row="39" column="3">
+        <widget class="LineEdit" name="lineEdit_383"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="swLabel">
+         <property name="text">
+          <string>副武器</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="48" column="3">
+        <widget class="QLabel" name="proLabel">
+         <property name="text">
+          <string>职业</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="40" column="0">
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>怪怪</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="22" column="1">
+        <widget class="LineEdit" name="lineEdit_221"/>
+       </item>
+       <item row="28" column="3">
+        <widget class="LineEdit" name="lineEdit_283"/>
+       </item>
+       <item row="17" column="4">
+        <widget class="LineEdit" name="lineEdit_174"/>
+       </item>
+       <item row="6" column="5">
+        <widget class="LineEdit" name="lineEdit_65"/>
+       </item>
+       <item row="31" column="2">
+        <widget class="LineEdit" name="lineEdit_312"/>
+       </item>
+       <item row="3" column="5">
+        <widget class="LineEdit" name="lineEdit_35"/>
+       </item>
+       <item row="35" column="5">
+        <widget class="LineEdit" name="lineEdit_345"/>
+       </item>
+       <item row="20" column="6">
+        <widget class="LineEdit" name="lineEdit_206"/>
+       </item>
+       <item row="8" column="3">
+        <widget class="LineEdit" name="lineEdit_83"/>
+       </item>
+       <item row="7" column="6">
+        <widget class="LineEdit" name="lineEdit_76"/>
+       </item>
+       <item row="27" column="4">
+        <widget class="LineEdit" name="lineEdit_274"/>
+       </item>
+       <item row="34" column="3">
+        <widget class="LineEdit" name="lineEdit_333"/>
+       </item>
+       <item row="10" column="3">
+        <widget class="LineEdit" name="lineEdit_103"/>
+       </item>
+       <item row="5" column="5">
+        <widget class="LineEdit" name="lineEdit_55"/>
+       </item>
+       <item row="39" column="0">
+        <widget class="QLabel" name="hyperLabel">
+         <property name="text">
+          <string>超级属性</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="21" column="5">
+        <widget class="LineEdit" name="lineEdit_215"/>
+       </item>
+       <item row="35" column="4">
+        <widget class="LineEdit" name="lineEdit_344"/>
+       </item>
+       <item row="23" column="6">
+        <widget class="LineEdit" name="lineEdit_236"/>
+       </item>
+       <item row="22" column="6">
+        <widget class="LineEdit" name="lineEdit_226"/>
+       </item>
+       <item row="48" column="4">
+        <widget class="ComboBox" name="proComboBox"/>
+       </item>
+       <item row="26" column="6">
+        <widget class="LineEdit" name="lineEdit_266"/>
+       </item>
+       <item row="16" column="2">
+        <widget class="LineEdit" name="lineEdit_162"/>
+       </item>
+       <item row="51" column="5">
+        <widget class="QPushButton" name="okBtn">
+         <property name="text">
+          <string>确认</string>
+         </property>
+        </widget>
+       </item>
+       <item row="27" column="2">
+        <widget class="LineEdit" name="lineEdit_272"/>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="hatLabel">
+         <property name="text">
+          <string>帽子</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="4">
+        <widget class="LineEdit" name="lineEdit_104"/>
+       </item>
+       <item row="44" column="3">
+        <widget class="LineEdit" name="lineEdit_433"/>
+       </item>
+       <item row="14" column="3">
+        <widget class="LineEdit" name="lineEdit_143"/>
+       </item>
+       <item row="11" column="6">
+        <widget class="LineEdit" name="lineEdit_116"/>
+       </item>
+       <item row="33" column="3">
+        <widget class="LineEdit" name="lineEdit_323"/>
+       </item>
+       <item row="33" column="2">
+        <widget class="LineEdit" name="lineEdit_322"/>
+       </item>
+       <item row="20" column="4">
+        <widget class="LineEdit" name="lineEdit_204"/>
+       </item>
+       <item row="25" column="1">
+        <widget class="LineEdit" name="lineEdit_251"/>
+       </item>
+       <item row="31" column="3">
+        <widget class="LineEdit" name="lineEdit_313"/>
+       </item>
+       <item row="48" column="1">
+        <widget class="QLabel" name="pureMainLabel">
+         <property name="whatsThis">
+          <string>登录界面的主属性，也是查看主属性时xxxx+xxxxx左边那部分</string>
+         </property>
+         <property name="text">
+          <string>裸主属性</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="mwLabel">
+         <property name="text">
+          <string>主武器</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="41" column="5">
+        <widget class="LineEdit" name="lineEdit_405"/>
+       </item>
+       <item row="51" column="1">
+        <widget class="QLineEdit" name="nameEdit"/>
+       </item>
+       <item row="19" column="5">
+        <widget class="LineEdit" name="lineEdit_195"/>
+       </item>
+       <item row="42" column="1">
+        <widget class="LineEdit" name="lineEdit_411"/>
+       </item>
+       <item row="15" column="0">
+        <widget class="QLabel" name="ring5Label">
+         <property name="text">
+          <string>戒指</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="25" column="0">
+        <widget class="QLabel" name="medalLabel">
+         <property name="text">
+          <string>勋章</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="17" column="0">
+        <widget class="QLabel" name="pendant1Label">
+         <property name="text">
+          <string>吊坠</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="26" column="2">
+        <widget class="LineEdit" name="lineEdit_262"/>
+       </item>
+       <item row="42" column="6">
+        <widget class="LineEdit" name="lineEdit_416"/>
+       </item>
+       <item row="16" column="1">
+        <widget class="LineEdit" name="lineEdit_161"/>
+       </item>
+       <item row="2" column="4">
+        <widget class="LineEdit" name="lineEdit_24"/>
+       </item>
+       <item row="24" column="0">
+        <widget class="QLabel" name="badgeLabel">
+         <property name="text">
+          <string>徽章</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="20" column="0">
+        <widget class="QLabel" name="eyeLabel">
+         <property name="text">
+          <string>眼饰</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="42" column="0">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>技能被动</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="18" column="0">
+        <widget class="QLabel" name="beltLabel">
+         <property name="text">
+          <string>腰带</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="39" column="5">
+        <widget class="LineEdit" name="lineEdit_385"/>
+       </item>
+       <item row="48" column="6">
+        <widget class="WComboBox" name="weaponComboBox"/>
+       </item>
+       <item row="0" column="3">
+        <widget class="QLabel" name="mainLabel">
+         <property name="text">
+          <string>主属性</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="4">
+        <widget class="LineEdit" name="lineEdit_34"/>
+       </item>
+       <item row="3" column="3">
+        <widget class="LineEdit" name="lineEdit_33"/>
+       </item>
+       <item row="12" column="0">
+        <widget class="QLabel" name="ring2Label">
+         <property name="text">
+          <string>戒指</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="23" column="5">
+        <widget class="LineEdit" name="lineEdit_235"/>
+       </item>
+       <item row="2" column="1">
+        <widget class="LineEdit" name="lineEdit_21"/>
+       </item>
+       <item row="15" column="2">
+        <widget class="LineEdit" name="lineEdit_152"/>
+       </item>
+       <item row="3" column="2">
+        <widget class="LineEdit" name="lineEdit_32"/>
+       </item>
+       <item row="29" column="4">
+        <widget class="LineEdit" name="lineEdit_294"/>
+       </item>
+       <item row="9" column="4">
+        <widget class="LineEdit" name="lineEdit_94"/>
+       </item>
+       <item row="30" column="3">
+        <widget class="LineEdit" name="lineEdit_303"/>
+       </item>
+       <item row="15" column="4">
+        <widget class="LineEdit" name="lineEdit_154"/>
+       </item>
+       <item row="2" column="6">
+        <widget class="LineEdit" name="lineEdit_26"/>
+       </item>
+       <item row="40" column="6">
+        <widget class="LineEdit" name="lineEdit_396"/>
+       </item>
+       <item row="1" column="1">
+        <widget class="LineEdit" name="lineEdit_11"/>
+       </item>
+       <item row="37" column="3">
+        <widget class="LineEdit" name="lineEdit_363"/>
+       </item>
+       <item row="0" column="4">
+        <widget class="QLabel" name="mainpLabel">
+         <property name="text">
+          <string>主属性%</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="4">
+        <widget class="LineEdit" name="lineEdit_124"/>
+       </item>
+       <item row="43" column="0">
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>称号</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="25" column="3">
+        <widget class="LineEdit" name="lineEdit_253"/>
+       </item>
+       <item row="43" column="5">
+        <widget class="LineEdit" name="lineEdit_425"/>
+       </item>
+       <item row="34" column="0">
+        <widget class="QLabel" name="leagueCapLabel">
+         <property name="text">
+          <string>联盟占领效果</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="2">
+        <widget class="LineEdit" name="lineEdit_72"/>
+       </item>
+       <item row="14" column="5">
+        <widget class="LineEdit" name="lineEdit_145"/>
+       </item>
+       <item row="35" column="1">
+        <widget class="LineEdit" name="lineEdit_341"/>
+       </item>
+       <item row="8" column="2">
+        <widget class="LineEdit" name="lineEdit_82"/>
+       </item>
+       <item row="3" column="1">
+        <widget class="LineEdit" name="lineEdit_31"/>
+       </item>
+       <item row="1" column="2">
+        <widget class="LineEdit" name="lineEdit_12"/>
+       </item>
+       <item row="6" column="2">
+        <widget class="LineEdit" name="lineEdit_62"/>
+       </item>
+       <item row="19" column="2">
+        <widget class="LineEdit" name="lineEdit_192"/>
+       </item>
+       <item row="42" column="5">
+        <widget class="LineEdit" name="lineEdit_415"/>
+       </item>
+       <item row="48" column="0">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>其他数据</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="0">
+        <widget class="QLabel" name="capeLabel">
+         <property name="text">
+          <string>披风</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="38" column="0">
+        <widget class="QLabel" name="innerLabel">
+         <property name="text">
+          <string>内在能力</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="23" column="2">
+        <widget class="LineEdit" name="lineEdit_232"/>
+       </item>
+       <item row="44" column="1">
+        <widget class="LineEdit" name="lineEdit_431"/>
+       </item>
+       <item row="13" column="4">
+        <widget class="LineEdit" name="lineEdit_134"/>
+       </item>
+       <item row="14" column="6">
+        <widget class="LineEdit" name="lineEdit_146"/>
+       </item>
+       <item row="29" column="5">
+        <widget class="LineEdit" name="lineEdit_295"/>
+       </item>
+       <item row="8" column="5">
+        <widget class="LineEdit" name="lineEdit_85"/>
+       </item>
+       <item row="39" column="1">
+        <widget class="LineEdit" name="lineEdit_381"/>
+       </item>
+       <item row="30" column="5">
+        <widget class="LineEdit" name="lineEdit_305"/>
+       </item>
+       <item row="17" column="1">
+        <widget class="LineEdit" name="lineEdit_171"/>
+       </item>
+       <item row="14" column="0">
+        <widget class="QLabel" name="ring4Label">
+         <property name="text">
+          <string>戒指</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="40" column="3">
+        <widget class="LineEdit" name="lineEdit_393"/>
+       </item>
+       <item row="5" column="2">
+        <widget class="LineEdit" name="lineEdit_52"/>
+       </item>
+       <item row="26" column="1">
+        <widget class="LineEdit" name="lineEdit_261"/>
+       </item>
+       <item row="33" column="4">
+        <widget class="LineEdit" name="lineEdit_324"/>
+       </item>
+       <item row="42" column="3">
+        <widget class="LineEdit" name="lineEdit_413"/>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="emblemLabel">
+         <property name="text">
+          <string>纹章</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="6">
+        <widget class="LineEdit" name="lineEdit_86"/>
+       </item>
+       <item row="50" column="6">
+        <widget class="LineEdit" name="normalMonDamageEdit">
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>对普怪伤害%</string>
+         </property>
+        </widget>
+       </item>
+       <item row="50" column="4">
+        <widget class="LineEdit" name="criticalDamageEdit">
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>暴击伤害%</string>
+         </property>
+        </widget>
+       </item>
+       <item row="49" column="0">
+        <widget class="QLabel" name="label_8">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>伤害%</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="19" column="4">
+        <widget class="LineEdit" name="lineEdit_194"/>
+       </item>
+       <item row="38" column="1">
+        <widget class="LineEdit" name="lineEdit_371"/>
+       </item>
+       <item row="41" column="0">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>家族被动</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="44" column="4">
+        <widget class="LineEdit" name="lineEdit_434"/>
+       </item>
+       <item row="40" column="1">
+        <widget class="LineEdit" name="lineEdit_391"/>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLabel" name="shoesLabel">
+         <property name="text">
+          <string>鞋子</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="4">
+        <widget class="LineEdit" name="lineEdit_44"/>
+       </item>
+       <item row="4" column="2">
+        <widget class="LineEdit" name="lineEdit_42"/>
+       </item>
+       <item row="27" column="3">
+        <widget class="LineEdit" name="lineEdit_273"/>
+       </item>
+       <item row="4" column="3">
+        <widget class="LineEdit" name="lineEdit_43"/>
+       </item>
+       <item row="5" column="3">
+        <widget class="LineEdit" name="lineEdit_53"/>
+       </item>
+       <item row="31" column="4">
+        <widget class="LineEdit" name="lineEdit_314"/>
+       </item>
+       <item row="29" column="3">
+        <widget class="LineEdit" name="lineEdit_293"/>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="topLabel">
+         <property name="text">
+          <string>上衣</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="35" column="3">
+        <widget class="LineEdit" name="lineEdit_343"/>
+       </item>
+       <item row="43" column="2">
+        <widget class="LineEdit" name="lineEdit_422"/>
+       </item>
+       <item row="12" column="1">
+        <widget class="LineEdit" name="lineEdit_121"/>
+       </item>
+       <item row="11" column="0">
+        <widget class="QLabel" name="ring1Label">
+         <property name="text">
+          <string>戒指</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="4">
+        <widget class="LineEdit" name="lineEdit_54"/>
+       </item>
+       <item row="29" column="1">
+        <widget class="LineEdit" name="lineEdit_291"/>
+       </item>
+       <item row="28" column="1">
+        <widget class="LineEdit" name="lineEdit_281"/>
+       </item>
+       <item row="48" column="5">
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>武器</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="15" column="1">
+        <widget class="LineEdit" name="lineEdit_151"/>
+       </item>
+       <item row="27" column="6">
+        <widget class="LineEdit" name="lineEdit_276"/>
+       </item>
+       <item row="26" column="0">
+        <widget class="QLabel" name="totemLabel">
+         <property name="text">
+          <string>图腾</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="28" column="2">
+        <widget class="LineEdit" name="lineEdit_282"/>
+       </item>
+       <item row="20" column="1">
+        <widget class="LineEdit" name="lineEdit_201"/>
+       </item>
+       <item row="28" column="4">
+        <widget class="LineEdit" name="lineEdit_284"/>
+       </item>
+       <item row="10" column="0">
+        <widget class="QLabel" name="ring0Label">
+         <property name="text">
+          <string>戒指</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="13" column="2">
+        <widget class="LineEdit" name="lineEdit_132"/>
+       </item>
+       <item row="26" column="4">
+        <widget class="LineEdit" name="lineEdit_264"/>
+       </item>
+       <item row="51" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>角色名</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="41" column="1">
+        <widget class="LineEdit" name="lineEdit_401"/>
+       </item>
+       <item row="0" column="6">
+        <widget class="QLabel" name="subpLabel">
+         <property name="text">
+          <string>副属性%</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="2">
+        <widget class="LineEdit" name="lineEdit_112"/>
+       </item>
+       <item row="10" column="5">
+        <widget class="LineEdit" name="lineEdit_105"/>
+       </item>
+       <item row="3" column="6">
+        <widget class="LineEdit" name="lineEdit_36"/>
+       </item>
+       <item row="2" column="3">
+        <widget class="LineEdit" name="lineEdit_23"/>
+       </item>
+       <item row="33" column="1">
+        <widget class="LineEdit" name="lineEdit_321"/>
+       </item>
+       <item row="30" column="4">
+        <widget class="LineEdit" name="lineEdit_304"/>
+       </item>
+       <item row="12" column="3">
+        <widget class="LineEdit" name="lineEdit_123"/>
+       </item>
+       <item row="1" column="5">
+        <widget class="LineEdit" name="lineEdit_15"/>
+       </item>
+       <item row="18" column="3">
+        <widget class="LineEdit" name="lineEdit_183"/>
+       </item>
+       <item row="13" column="6">
+        <widget class="LineEdit" name="lineEdit_136"/>
+       </item>
+       <item row="24" column="4">
+        <widget class="LineEdit" name="lineEdit_244"/>
+       </item>
+       <item row="25" column="4">
+        <widget class="LineEdit" name="lineEdit_254"/>
+       </item>
+       <item row="44" column="0">
+        <widget class="QLabel" name="otherLabel">
+         <property name="text">
+          <string>拼图及其他</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="13" column="0">
+        <widget class="QLabel" name="ring3Label">
+         <property name="text">
+          <string>戒指</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="3">
+        <widget class="LineEdit" name="lineEdit_93"/>
+       </item>
+       <item row="21" column="2">
+        <widget class="LineEdit" name="lineEdit_212"/>
+       </item>
+       <item row="21" column="4">
+        <widget class="LineEdit" name="lineEdit_214"/>
+       </item>
+       <item row="27" column="1">
+        <widget class="LineEdit" name="lineEdit_271"/>
+       </item>
+       <item row="18" column="1">
+        <widget class="LineEdit" name="lineEdit_181"/>
+       </item>
+       <item row="18" column="6">
+        <widget class="LineEdit" name="lineEdit_186"/>
+       </item>
+       <item row="4" column="6">
+        <widget class="LineEdit" name="lineEdit_46"/>
+       </item>
+       <item row="50" column="0">
+        <widget class="LineEdit" name="damageEdit">
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>伤害%</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="6">
+        <widget class="LineEdit" name="lineEdit_16"/>
+       </item>
+       <item row="12" column="2">
+        <widget class="LineEdit" name="lineEdit_122"/>
+       </item>
+       <item row="43" column="4">
+        <widget class="LineEdit" name="lineEdit_424"/>
+       </item>
+       <item row="44" column="2">
+        <widget class="LineEdit" name="lineEdit_432"/>
+       </item>
+       <item row="27" column="5">
+        <widget class="LineEdit" name="lineEdit_275"/>
+       </item>
+       <item row="22" column="2">
+        <widget class="LineEdit" name="lineEdit_222"/>
+       </item>
+       <item row="13" column="5">
+        <widget class="LineEdit" name="lineEdit_135"/>
+       </item>
+       <item row="19" column="6">
+        <widget class="LineEdit" name="lineEdit_196"/>
+       </item>
+       <item row="49" column="1">
+        <widget class="QLabel" name="label_10">
+         <property name="text">
+          <string>BOSS伤害%</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="bottomLabel">
+         <property name="text">
+          <string>裙裤</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="33" column="5">
+        <widget class="LineEdit" name="lineEdit_325"/>
+       </item>
+       <item row="33" column="0">
+        <widget class="QLabel" name="combineLabel">
+         <property name="text">
+          <string>所有套装效果</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="15" column="3">
+        <widget class="LineEdit" name="lineEdit_153"/>
+       </item>
+       <item row="17" column="5">
+        <widget class="LineEdit" name="lineEdit_175"/>
+       </item>
+       <item row="15" column="5">
+        <widget class="LineEdit" name="lineEdit_155"/>
+       </item>
+       <item row="17" column="3">
+        <widget class="LineEdit" name="lineEdit_173"/>
+       </item>
+       <item row="28" column="5">
+        <widget class="LineEdit" name="lineEdit_285"/>
+       </item>
+       <item row="10" column="6">
+        <widget class="LineEdit" name="lineEdit_106"/>
+       </item>
+       <item row="5" column="1">
+        <widget class="LineEdit" name="lineEdit_51"/>
+       </item>
+       <item row="16" column="4">
+        <widget class="LineEdit" name="lineEdit_164"/>
+       </item>
+       <item row="21" column="1">
+        <widget class="LineEdit" name="lineEdit_211"/>
+       </item>
+       <item row="15" column="6">
+        <widget class="LineEdit" name="lineEdit_156"/>
+       </item>
+       <item row="20" column="2">
+        <widget class="LineEdit" name="lineEdit_202"/>
+       </item>
+       <item row="23" column="3">
+        <widget class="LineEdit" name="lineEdit_233"/>
+       </item>
+       <item row="9" column="5">
+        <widget class="LineEdit" name="lineEdit_95"/>
+       </item>
+       <item row="37" column="0">
+        <widget class="QLabel" name="authLabel">
+         <property name="text">
+          <string>原初徽章主属性</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="29" column="6">
+        <widget class="LineEdit" name="lineEdit_296"/>
+       </item>
+       <item row="14" column="4">
+        <widget class="LineEdit" name="lineEdit_144"/>
+       </item>
+       <item row="22" column="5">
+        <widget class="LineEdit" name="lineEdit_225"/>
+       </item>
+       <item row="6" column="4">
+        <widget class="LineEdit" name="lineEdit_64"/>
+       </item>
+       <item row="12" column="5">
+        <widget class="LineEdit" name="lineEdit_125"/>
+       </item>
+       <item row="30" column="1">
+        <widget class="LineEdit" name="lineEdit_301"/>
+       </item>
+       <item row="31" column="1">
+        <widget class="LineEdit" name="lineEdit_311"/>
+       </item>
+       <item row="24" column="2">
+        <widget class="LineEdit" name="lineEdit_242"/>
+       </item>
+       <item row="30" column="6">
+        <widget class="LineEdit" name="lineEdit_306"/>
+       </item>
+       <item row="42" column="4">
+        <widget class="LineEdit" name="lineEdit_414"/>
+       </item>
+       <item row="22" column="3">
+        <widget class="LineEdit" name="lineEdit_223"/>
+       </item>
+       <item row="16" column="6">
+        <widget class="LineEdit" name="lineEdit_166"/>
+       </item>
+       <item row="48" column="2">
+        <widget class="LineEdit" name="pureMainEdit"/>
+       </item>
+       <item row="23" column="4">
+        <widget class="LineEdit" name="lineEdit_234"/>
+       </item>
+       <item row="35" column="0">
+        <widget class="QLabel" name="leagueTeamLabel">
+         <property name="text">
+          <string>联盟队员效果</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="38" column="3">
+        <widget class="LineEdit" name="lineEdit_373"/>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="atkLabel">
+         <property name="text">
+          <string>攻击力</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="38" column="5">
+        <widget class="LineEdit" name="lineEdit_375"/>
+       </item>
+       <item row="13" column="3">
+        <widget class="LineEdit" name="lineEdit_133"/>
+       </item>
+       <item row="20" column="5">
+        <widget class="LineEdit" name="lineEdit_205"/>
+       </item>
+       <item row="50" column="3">
+        <widget class="LineEdit" name="criticalEdit">
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>暴击率%</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="4">
+        <widget class="LineEdit" name="lineEdit_84"/>
+       </item>
+       <item row="31" column="5">
+        <widget class="LineEdit" name="lineEdit_315"/>
+       </item>
+       <item row="4" column="1">
+        <widget class="LineEdit" name="lineEdit_41"/>
+       </item>
+       <item row="43" column="6">
+        <widget class="LineEdit" name="lineEdit_426"/>
+       </item>
+       <item row="17" column="2">
+        <widget class="LineEdit" name="lineEdit_172"/>
+       </item>
+       <item row="40" column="2">
+        <widget class="LineEdit" name="lineEdit_392"/>
+       </item>
+       <item row="14" column="2">
+        <widget class="LineEdit" name="lineEdit_142"/>
+       </item>
+       <item row="16" column="0">
+        <widget class="QLabel" name="pendant0Label">
+         <property name="text">
+          <string>吊坠</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="24" column="1">
+        <widget class="LineEdit" name="lineEdit_241"/>
+       </item>
+       <item row="30" column="0">
+        <widget class="QLabel" name="linkLabel">
+         <property name="text">
+          <string>Link</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="35" column="6">
+        <widget class="LineEdit" name="lineEdit_346"/>
+       </item>
+       <item row="23" column="0">
+        <widget class="QLabel" name="pocketLabel">
+         <property name="text">
+          <string>口袋</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="50" column="1">
+        <widget class="LineEdit" name="BossDamageEdit">
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>BOSS伤害%</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="LineEdit" name="lineEdit_22"/>
+       </item>
+       <item row="18" column="2">
+        <widget class="LineEdit" name="lineEdit_182"/>
+       </item>
+       <item row="19" column="3">
+        <widget class="LineEdit" name="lineEdit_193"/>
+       </item>
+       <item row="8" column="1">
+        <widget class="LineEdit" name="lineEdit_81"/>
+       </item>
+       <item row="10" column="2">
+        <widget class="LineEdit" name="lineEdit_102"/>
+       </item>
+       <item row="25" column="5">
+        <widget class="LineEdit" name="lineEdit_255"/>
+       </item>
+       <item row="27" column="0">
+        <widget class="QLabel" name="robotHeartLabel">
+         <property name="text">
+          <string>机器人心脏</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="4">
+        <widget class="LineEdit" name="lineEdit_74"/>
+       </item>
+       <item row="14" column="1">
+        <widget class="LineEdit" name="lineEdit_141"/>
+       </item>
+       <item row="11" column="5">
+        <widget class="LineEdit" name="lineEdit_115"/>
+       </item>
+       <item row="25" column="6">
+        <widget class="LineEdit" name="lineEdit_256"/>
+       </item>
+       <item row="34" column="5">
+        <widget class="LineEdit" name="lineEdit_335"/>
+       </item>
+       <item row="23" column="1">
+        <widget class="LineEdit" name="lineEdit_231"/>
+       </item>
+       <item row="22" column="0">
+        <widget class="QLabel" name="shoulderLabel">
+         <property name="text">
+          <string>肩饰</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="5">
+        <widget class="LineEdit" name="lineEdit_45"/>
+       </item>
+       <item row="18" column="5">
+        <widget class="LineEdit" name="lineEdit_185"/>
+       </item>
+       <item row="9" column="1">
+        <widget class="LineEdit" name="lineEdit_91"/>
+       </item>
+       <item row="19" column="0">
+        <widget class="QLabel" name="faceLabel">
+         <property name="text">
+          <string>脸饰</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="5">
+        <widget class="LineEdit" name="lineEdit_25"/>
+       </item>
+       <item row="36" column="3">
+        <widget class="LineEdit" name="lineEdit_353"/>
+       </item>
+       <item row="13" column="1">
+        <widget class="LineEdit" name="lineEdit_131"/>
+       </item>
+       <item row="20" column="3">
+        <widget class="LineEdit" name="lineEdit_203"/>
+       </item>
+       <item row="36" column="0">
+        <widget class="QLabel" name="ArcLabel">
+         <property name="text">
+          <string>神秘徽章主属性</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="43" column="1">
+        <widget class="LineEdit" name="lineEdit_421"/>
+       </item>
+       <item row="44" column="5">
+        <widget class="LineEdit" name="lineEdit_435"/>
+       </item>
+       <item row="6" column="1">
+        <widget class="LineEdit" name="lineEdit_61"/>
+       </item>
+       <item row="16" column="5">
+        <widget class="LineEdit" name="lineEdit_165"/>
+       </item>
+       <item row="12" column="6">
+        <widget class="LineEdit" name="lineEdit_126"/>
+       </item>
+       <item row="29" column="2">
+        <widget class="LineEdit" name="lineEdit_292"/>
+       </item>
+       <item row="43" column="3">
+        <widget class="LineEdit" name="lineEdit_423"/>
+       </item>
+       <item row="41" column="3">
+        <widget class="LineEdit" name="lineEdit_403"/>
+       </item>
+       <item row="0" column="5">
+        <widget class="QLabel" name="subLabel">
+         <property name="text">
+          <string>副属性</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLabel" name="atkpLabel">
+         <property name="text">
+          <string>攻击力%</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="3">
+        <widget class="LineEdit" name="lineEdit_63"/>
+       </item>
+       <item row="19" column="1">
+        <widget class="LineEdit" name="lineEdit_191"/>
+       </item>
+       <item row="31" column="0">
+        <widget class="QLabel" name="cashLabel">
+         <property name="text">
+          <string>现金道具</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="26" column="5">
+        <widget class="LineEdit" name="lineEdit_265"/>
+       </item>
+       <item row="21" column="0">
+        <widget class="QLabel" name="earringsLabel">
+         <property name="text">
+          <string>耳环</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="4">
+        <widget class="LineEdit" name="lineEdit_14"/>
+       </item>
+       <item row="7" column="3">
+        <widget class="LineEdit" name="lineEdit_73"/>
+       </item>
+       <item row="47" column="0" colspan="7">
+        <widget class="Line" name="line">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="16" column="3">
+        <widget class="LineEdit" name="lineEdit_163"/>
+       </item>
+       <item row="11" column="3">
+        <widget class="LineEdit" name="lineEdit_113"/>
+       </item>
+       <item row="35" column="2">
+        <widget class="LineEdit" name="lineEdit_342"/>
+       </item>
+       <item row="40" column="4">
+        <widget class="LineEdit" name="lineEdit_394"/>
+       </item>
+       <item row="17" column="6">
+        <widget class="LineEdit" name="lineEdit_176"/>
+       </item>
+       <item row="7" column="1">
+        <widget class="LineEdit" name="lineEdit_71"/>
+       </item>
+       <item row="42" column="2">
+        <widget class="LineEdit" name="lineEdit_412"/>
+       </item>
+       <item row="28" column="0">
+        <widget class="QLabel" name="petEquipLabel">
+         <property name="text">
+          <string>宠物装备</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="33" column="6">
+        <widget class="LineEdit" name="lineEdit_326"/>
+       </item>
+       <item row="18" column="4">
+        <widget class="LineEdit" name="lineEdit_184"/>
+       </item>
+       <item row="30" column="2">
+        <widget class="LineEdit" name="lineEdit_302"/>
+       </item>
+       <item row="5" column="6">
+        <widget class="LineEdit" name="lineEdit_56"/>
+       </item>
+       <item row="6" column="6">
+        <widget class="LineEdit" name="lineEdit_66"/>
+       </item>
+       <item row="11" column="1">
+        <widget class="LineEdit" name="lineEdit_111"/>
+       </item>
+       <item row="11" column="4">
+        <widget class="LineEdit" name="lineEdit_114"/>
+       </item>
+       <item row="49" column="4">
+        <widget class="QLabel" name="label_13">
+         <property name="text">
+          <string>暴击伤害%</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="26" column="3">
+        <widget class="LineEdit" name="lineEdit_263"/>
+       </item>
+       <item row="1" column="3">
+        <widget class="LineEdit" name="lineEdit_13"/>
+       </item>
+       <item row="44" column="6">
+        <widget class="LineEdit" name="lineEdit_436"/>
+       </item>
+       <item row="10" column="1">
+        <widget class="LineEdit" name="lineEdit_101"/>
+       </item>
+       <item row="49" column="6">
+        <widget class="QLabel" name="label_14">
+         <property name="text">
+          <string>对普通怪物%</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="49" column="5">
+        <widget class="QLabel" name="label_9">
+         <property name="text">
+          <string>无视防御%</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="50" column="5">
+        <widget class="LineEdit" name="ignoreDefenseEdit">
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>无视防御%</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>LineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>Widgets.h</header>
+  </customwidget>
+  <customwidget>
+   <class>ComboBox</class>
+   <extends>QComboBox</extends>
+   <header>Widgets.h</header>
+  </customwidget>
+  <customwidget>
+   <class>WComboBox</class>
+   <extends>QComboBox</extends>
+   <header>Widgets.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>cancelBtn</sender>
+   <signal>clicked()</signal>
+   <receiver>InputUi</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>539</x>
+     <y>384</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>299</x>
+     <y>199</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
